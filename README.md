@@ -10,7 +10,7 @@ Tecnología: Next.js y Postgres.
 2. Antes o después del primer despliegue, en la pestaña **Storage** del proyecto, crea una base de datos Postgres (por ejemplo, Neon) y conéctala al proyecto. Esto agrega `DATABASE_URL` por ti. Si tu base es externa, agrega `DATABASE_URL` a mano.
 3. En **Settings → Environment Variables**, agrega:
    - `ADMIN_USUARIO`: el usuario con el que vas a ingresar, por ejemplo `edgar`.
-   - `ADMIN_CLAVE`: una clave de al menos 10 caracteres.
+   - `ADMIN_CLAVE`: una clave de al menos 8 caracteres (se cambia en el primer ingreso por una de al menos 10).
 4. Vuelve a desplegar (**Deployments → Redeploy**) para que tome las variables.
 
 Las tablas se crean solas la primera vez que alguien usa el sitio.
